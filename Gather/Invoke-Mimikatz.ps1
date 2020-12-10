@@ -18,12 +18,7 @@ functionality provided with Mimikatz.
 The script, in near future, will provide additional commands for a variety of attacks possible with Mimikatz.
 
 Function: Invoke-Mimikatz
-Author: Joe Bialek, Twitter: @JosephBialek
-Mimikatz Author: Benjamin DELPY `gentilkiwi`. Blog: http://blog.gentilkiwi.com. Email: benjamin@gentilkiwi.com. Twitter @gentilkiwi
-License:  http://creativecommons.org/licenses/by/3.0/fr/
-Required Dependencies: Mimikatz (included)
-Optional Dependencies: None
-Mimikatz version: 2.1.1 (13/08/2017)
+
 
 
 .PARAMETER DumpCreds
