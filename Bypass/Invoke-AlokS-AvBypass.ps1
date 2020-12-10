@@ -1,8 +1,5 @@
 function Invoke-AlokS-AvBypass
 {
-Write-Host "-- Bypassing Antivirus in Powershell --"
-Write-Host "--- Script Modified by Alok Saurabh ---"
-Write-Host "-- Credits to Paul Laîné & Avi Gimpel --"
 Write-Host ""
 
 $Kernel32 = @"
